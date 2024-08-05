@@ -1,0 +1,27 @@
+<html>
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Task 3</title>
+    </head>
+    <body>
+        <img  id='image-link' src="https://monnify.com/assets/img/png/shutter-1.png"/>
+        <script>
+            let greeting ="Hello," ;
+            let name ="David";
+            let space=" - "
+            let completegreeting= greeting+ space +name;
+              console.log(completegreeting);
+
+              let newHref ="https://moniepoint.com/business/hero-sub.png"
+              function changeimg(newHref) { document.getElementById('image-link').src = newHref;
+                
+              }
+              changeimg(newHref)
+         </script>
+
+        
+    </body>
+    </html>
